@@ -1,7 +1,37 @@
 *{
     padding: 0%;
+    margin: 0%;
+}
 
-margin: 0%;}
+.header{
+    padding: 10px 30px;
+    background-color: #F7F7F7;
+    /* display: inline-block; */
+    position: relative;
+    box-shadow: 0 1px 5px grey;
+    margin-bottom: 30px;
+}
+
+.links{
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    font-size: 18px;
+}
+
+.header .image img{
+    width: 250px;
+}
+
+.pdf{
+    text-decoration: none;
+    color: grey;
+}
+
+.registration{
+    text-decoration: none;
+    color: black;
+}
 
 h1{
     text-align: center;

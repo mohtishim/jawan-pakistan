@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jawan Pakistan</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="header">
+        <div class="image"><img src="./Images/landscape_logo.png" alt=""></div>
+
+        <div class="links">
+            <a class="pdf" href="">Download PDF</a>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="registration" href="">Registration</a>
+        </div>
+    </div>
+
     <form action="">
+        
             <h1>Registration Form</h1>
             <div class="first-row">
                 <label for="Institute">Institute <span>*</span></label>
@@ -66,28 +77,32 @@
             <!-- 3rd row of form -->
     
             <div class="third-row">
-                <label for="Institute">Institute <span>*</span></label>
+                <label for="timings">Your Favourite Time? <span>*</span></label>
                 <br>
-                <select name="" id="Institute">
+                <select name="" id="timings">
                     <option value="">Select Option</option>
-                    <option value="">SAIMS (WOW)</option>
+                    <option value="">Mon & Thur 06:30 pm - 09:30</option>
+                    <option value="">Tue & Fri 06:30 pm - 09:30</option>
                 </select>
                 <br><br>
-                <label for="fname">Full Name <span>*</span></label>
+                <label for="email">Email (Write email carefully) <span>*</span></label>
                 <br>
-                <input id="fname" type="text">
+                <input placeholder="abc123@gmail.com" id="email" type="email">
                 <br><br>
-                <label for="contact">Contact Number <span>*</span></label>
+                <label for="CNIC">CNIC / B-Form <span>*</span></label>
                 <br>
-                <input placeholder="03XXXXXXXXX" id="contact" type="text">
+                <input placeholder="4XXXXXXXXXXXXX" id="CNIC" type="text">
                 <br><br>
-                <label for="Gender">Institute <span>*</span></label>
+                <label for="qualification">Last Qualification <span>*</span></label>
                 <br>
     
-                <select name="" id="Gender">
-                    <option selected disabled value="">Select Gender</option>
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
+                <select name="" id="qualification">
+                    <option selected disabled value="">Select Option</option>
+                    <option value="under-matric">Under Matric</option>
+                    <option value="Matric">Matric</option>
+                    <option value="Graduation">Graduation</option>
+                    <option value="Masters">Masters</option>
+                    <option value="PHD">PHD</option>
                 </select>
                 
             </div>
