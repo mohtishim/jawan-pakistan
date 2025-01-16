@@ -45,6 +45,8 @@ form{
     /* background-color: brown; */
     box-shadow: 0 0 5px grey;
     border-radius: 5px;
+    position: relative;
+    overflow: hidden;
 }
 
 .first-row{
@@ -137,4 +139,45 @@ button{
 ::-webkit-scrollbar-track {
     background-color: lightgrey;
     border-radius: 10px;
+  }
+
+  .top-left{
+    width: 150px;
+    height: 20px;
+    background: linear-gradient(to right, white, #006838, white) ;
+    
+    rotate: 135deg;
+    position: absolute;
+    left: -30px;
+    top: 30px;
+  }
+
+  .top-right{
+    width: 150px;
+    height: 20px;
+    background: linear-gradient(to right, white, #006838, white) ;
+    rotate: 45deg;
+    position: absolute;
+    right: -30px;
+    top: 30px;
+  }
+
+  .bottom-left{
+    width: 150px;
+    height: 20px;
+    background: linear-gradient(to right, white, #006838, white) ;
+    rotate: 45deg;
+    position: absolute;
+    left: -30px;
+    bottom: 30px;
+  }
+
+  .bottom-right{
+    width: 150px;
+    height: 20px;
+    background: linear-gradient(to right, white, #006838, white) ;
+    rotate: 135deg;
+    position: absolute;
+    right: -30px;
+    bottom: 30px;
   }
